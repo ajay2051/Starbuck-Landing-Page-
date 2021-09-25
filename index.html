@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Starbucks</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="shortcut icon" href="Images/logo.png" />
+	</head>
+	<body>
+		<nav>
+			<a href="#" class="logo"><img src="Images/logo.png" alt="" /></a>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">What's New</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<div class="contents">
+			<div class="text">
+				<h2>
+					It's Not Just Coffee<br />It's <span id="starbucks">Starbucks</span>
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+					voluptatum, magnam itaque beatae quas, consequuntur nulla quod
+					corrupti iusto, dignissimos laudantium esse inventore cupiditate
+					excepturi culpa impedit delectus placeat nostrum!
+				</p>
+				<a href="#" id="button">Learn More</a>
+			</div>
+			<div class="img">
+				<img src="Images/green.png" class="image" />
+			</div>
+			<ul class="small_pic">
+				<li>
+					<img
+						src="Images/g.png"
+						onclick="imgSlider('Images/green.png');changeCircleColor('green');changeTextColor('green');changeBgColor('green');"
+					/>
+				</li>
+				<li>
+					<img
+						src="Images/r.png"
+						onclick="imgSlider('Images/red.png');changeCircleColor('red');changeTextColor('red');changeBgColor('red');"
+					/>
+				</li>
+				<li>
+					<img
+						src="Images/p.png"
+						onclick="imgSlider('Images/pink.png');changeCircleColor('pink');changeTextColor('pink');changeBgColor('pink');"
+					/>
+				</li>
+			</ul>
+			<ul class="social">
+				<li>
+					<a href="#"><img src="Images/facebook.png" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="Images/twitter.png" alt="" /></a>
+				</li>
+				<li>
+					<a href="#"><img src="Images/instagram.png" alt="" /></a>
+				</li>
+			</ul>
+		</div>
+		<div class="circle" id="circle"></div>
+	</body>
+	<script src="script.js"></script>
+</html>
